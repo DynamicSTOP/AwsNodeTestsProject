@@ -1,0 +1,17 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "out",
+    "lib": [
+      "dom",
+      "ES2016"
+    ],
+    "target": "ES2016"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
